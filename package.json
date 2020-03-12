@@ -1,0 +1,14 @@
+{
+  "name": "ra-smartmenu-bootstrap",
+  "version": "1.0.0",
+  "description": "Multi-level dropdown menus using SmartMenus Bootstrap addon.",
+  "main": "gulpfile.js",
+  "repository": "https://github.com/webdevsuperfast/ra-smartmenu-bootstrap",
+  "author": "Rotsen Mark Acob",
+  "license": "GPL2",
+  "private": true,
+  "dependencies": {
+    "smartmenus": "^1.1.0",
+    "smartmenus-bootstrap-4": "^0.1.0"
+  }
+}

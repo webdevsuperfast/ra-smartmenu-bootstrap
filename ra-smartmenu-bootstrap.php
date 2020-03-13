@@ -24,7 +24,7 @@ class RA_Smartmenu_Bootstrap {
 
     if ( !is_admin() ) {
       // Enqueue SmartMenus Bootstrap Addon CSS
-      wp_enqueue_style( plugin_dir_url( __FILE__ ) . 'public/css/jquery.smartmenus.bootstrap-4.min.css' );
+      wp_enqueue_style( 'rasb-smartmenu-css', plugin_dir_url( __FILE__ ) . 'public/css/jquery.smartmenus.bootstrap-4.css' );
 
       // Register and enqueue SmartMenus main JS file
       wp_register_script( 'rasb-smartmenu-js', plugin_dir_url( __FILE__ ) . 'public/js/jquery.smartmenus.min.js', array( 'jquery' ), $plugin_version, true );

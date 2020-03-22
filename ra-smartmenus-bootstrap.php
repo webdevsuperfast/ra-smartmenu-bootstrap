@@ -14,7 +14,7 @@ Domain Path: /languages
 
 defined( 'ABSPATH' ) or die( esc_html_e( 'You do not have an access to this realm, return to your own world.', 'ra-smartmenu-bootstrap' ) );
 
-class RA_Smartmenu_Bootstrap {
+class RA_SmartMenus_Bootstrap {
   public function __construct() {
     // Enqueue required CSS and JS files
     add_action( 'wp_enqueue_scripts', array( $this, 'rasb_enqueue_scripts' ) );
@@ -52,4 +52,4 @@ class RA_Smartmenu_Bootstrap {
   }
 }
 
-new RA_Smartmenu_Bootstrap();
+new RA_SmartMenus_Bootstrap();
